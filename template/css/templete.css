@@ -265,11 +265,13 @@
     z-index: 1;
     overflow: hidden;
     font-family: 'DIN Condensed Bold';
-    font-size: 150px;
-    line-height: 220px;
+    font-size: 80px;
+    line-height: 90px;
     font-weight: 600;
 	margin-bottom: 0;
     font-weight: 900;
+	color: white;
+	text-shadow: 3px 3px 3px black;
 }
 .page-banner .video-box video{
 	width: 100%;
@@ -380,6 +382,7 @@
     text-transform: uppercase;
     font-weight: 600;
 }
+
 .split-content .description,
 .services-box .description{
     margin-top: 30px;
