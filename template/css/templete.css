@@ -271,7 +271,10 @@
 	margin-bottom: 0;
     font-weight: 900;
 	color: white;
-	text-shadow: 3px 3px 3px black;
+		/*text-shadow: 3px 3px 3px 3px black;*/
+
+    text-shadow: 3px 3px 3px rgba(0,0,0,1);
+
 }
 .page-banner .video-box video{
 	width: 100%;
