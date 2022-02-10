@@ -665,7 +665,7 @@
 .services-box:hover .number,
 .services-box:hover .title,
 .services-box:hover .services-text .description{
-	color: #000 !important;
+	/*color: #000 !important;*/
 }
 .title-back{
     font-weight: 600;
