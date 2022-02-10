@@ -26,6 +26,7 @@ var Smart = function(){
 				if(jQuery(this).parent().hasClass('open'))
 				{
 					jQuery(this).parent().removeClass('open');
+					
 				}
 				else{
 					jQuery(this).parent().parent().find('li').removeClass('open');
@@ -220,6 +221,12 @@ var Smart = function(){
 		jQuery('.menu-icon, .extra-nav .navicon').on('click',function(){
 			jQuery('.menu-close,.full-sidenav, .header-nav').toggleClass('active');
 			//onePageLayout();
+		});
+		
+		jQuery(".navbar-nav > li > a").on("click", function(){
+			$("#navbarNavDropdown").removeClass('show');
+			$("#navButtonMenu").removeClass('open');
+
 		});
 		
 		jQuery('.navicon').on('click',function(){
