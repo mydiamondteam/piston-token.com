@@ -672,7 +672,7 @@
     font-size: 8vw;
     text-transform: uppercase;
     line-height: 100px;
-    margin-bottom: -35px;
+    /*margin-bottom: -35px;*/
     letter-spacing: 1px;
 }
 .title-stroke {
