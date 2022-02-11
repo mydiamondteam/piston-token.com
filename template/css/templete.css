@@ -24,6 +24,7 @@
 	margin: 16px;
 	margin-left: 0;
 	display: inline-block;
+	font-weight: bold;
 }
 
 .mainbutton:hover {
