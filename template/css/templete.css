@@ -28,7 +28,7 @@
 }
 
 .description {
-	word-break: break-all;
+	word-break: break-word;
 }
 
 .mainbutton:hover {
@@ -408,7 +408,7 @@
 .split-content .description,
 .services-box .description{
     margin-top: 30px;
-    max-width: 350px;
+    /*max-width: 350px;*/
     color: #fff;
     font-size: 18px;
     text-align: left;
