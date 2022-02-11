@@ -27,6 +27,10 @@
 	font-weight: bold;
 }
 
+.description {
+	word-break: break-all;
+}
+
 .mainbutton:hover {
 	background-color: black;
 	
