@@ -216,6 +216,7 @@ var Smart = function(){
 		jQuery('.full-sidenav .navbar-nav > li > a, .full-sidenav .sub-menu > li > a').unbind().on('click', function(e){
 			jQuery('.full-sidenav .navbar-nav > li > a').not(this).next('.sub-menu').slideUp();
 			jQuery(this).next('.sub-menu').toggle(500);
+			jQuery('body').toggleClass('fixed-body');
 		});
 		
 		jQuery('.menu-icon, .extra-nav .navicon').on('click',function(){
@@ -223,9 +224,11 @@ var Smart = function(){
 			//onePageLayout();
 		});
 		
+		// close the menu
 		jQuery(".navbar-nav > li > a").on("click", function(){
 			$("#navbarNavDropdown").removeClass('show');
 			$("#navButtonMenu").removeClass('open');
+			jQuery('body').toggleClass('fixed-body');
 
 		});
 		
